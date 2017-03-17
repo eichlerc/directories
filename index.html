@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body ng-app="mainApp">
+    <h1>Cute Shtuff</h1>
+    <section ng-controller="infoSectionCtrl">
+      <post-section ng-repeat="info in sectionInfo"></post-section>
+
+    </section>
+    <script src="https://code.angularjs.org/1.6.2/angular.js"></script>
+    <script src="https://code.angularjs.org/1.6.2/angular-route.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+
+</html>
